@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras da Semana</title>
+    
+    <link rel="stylesheet" href="style.css/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <div class="container py-base">
+                <img src="assets/icons/stripes.svg" alt="Logo do site">
+                <img src="assets/icons/quicklist.svg" alt="quicklist">
+            </div>
+    </header>
+    
+    <main>
+        <div class="back">
+            <img src="assets/icons/link button.svg" alt="">
+        </div>
+
+        <div class="shopping"> 
+            <h1>Compras da semana</h1>
+        </div>
+
+        <div class="field">
+            <form class="add-item-form">
+                <label for="new-item-input"></label>
+                <input id="new-item-input" type="text" placeholder="Adicione um novo item">
+            </form>
+            <button class="add-item"> Adicionar item </button>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="checkbox-text">
+                        <div class="checkbox">
+                            <input type="checkbox" name="valor1" class="checkbox-valor">
+                            <img src="assets/icons/Vector.svg" alt="icone de certo">
+                        </div>
+                        <p>Pão de forma</p>
+                    </div>
+                    <div class="trash">
+                        <img src="assets/icons/trash.svg" alt="ícone de lixeira">
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-text">
+                        <div class="checkbox">
+                            <input type="checkbox" name="valor2" class="checkbox-valor">
+                            <img src="assets/icons/Vector.svg" alt="icone de certo">
+                        </div>
+                        <p>Café preto</p>
+                    </div>
+                    <div class="trash">
+                        <img src="assets/icons/trash.svg" alt="ícone de lixeira">
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-text">
+                        <div class="checkbox">
+                            <input type="checkbox" name="valor3" class="checkbox-valor">
+                            <img src="assets/icons/Vector.svg" alt="icone de certo">
+                        </div>
+                        <p>Suco de laranja</p>
+                    </div>
+                    <div class="trash">
+                        <img src="assets/icons/trash.svg" alt="ícone de lixeira">
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-text">
+                        <div class="checkbox">
+                            <input type="checkbox" name="valor4" class="checkbox-valor">
+                            <img src="assets/icons/Vector.svg" alt="icone de certo">
+                        </div>
+                        <p>Bolacha</p>
+                    </div>
+                    <div class="trash">
+                        <img src="assets/icons/trash.svg" alt="ícone de lixeira">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="notification">
+            <div class="icon-text">
+                <img src="assets/icons/warning-circle-filled.svg" alt="circulo com uma exclamação no meio">
+                <p>
+                    O item foi removido da lista
+                </p>
+            </div>
+            <div class="delete">
+                <button>
+                    <img src="assets/icons/delete-small.svg" alt="icone de delete">
+                </button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
